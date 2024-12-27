@@ -50,7 +50,7 @@ Configures the extension and its permissions. Example:
 ```
 
 ### Background Script
-**`background.js`** ([Source](29)):
+**`background.js`** ([Source](background.js)):
 Handles the omnibox search functionality. Example:
 ```javascript
 chrome.omnibox.onInputEntered.addListener((text) => {
@@ -69,7 +69,7 @@ chrome.omnibox.onInputEntered.addListener((text) => {
 ```
 
 ### Popup Interface
-**`popup.html`** ([Source](28)):
+**`popup.html`** ([Source](popup.html)):
 Provides a user-friendly interface for quick searches. Example:
 ```html
 <!DOCTYPE html>
