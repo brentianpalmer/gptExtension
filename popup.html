@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom Search Toggle</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Search Options:</h3>
+  <button onclick="searchGoogle()">Google Search</button><br>
+  <button onclick="searchChatGPT()">ChatGPT Search</button>
+
+  <script>
+    function searchGoogle() {
+      chrome.tabs.create({ url: 'https://www.google.com/' });
+    }
+
+    function searchChatGPT() {
+      chrome.tabs.create({ url: 'https://chat.openai.com/' });
+    }
+  </script>
+</body>
+</html>
