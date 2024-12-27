@@ -100,9 +100,9 @@ Provides a user-friendly interface for quick searches. Example:
 ```
 
 ### Icons
-- `icon16.png` ([Source](file-QTdJXJabKTkrUtDzfKTjMf))
-- `icon48.png` ([Source](file-T982FEuCe3UUu5j718kgCd))
-- `icon128.png` ([Source](file-7iJD3n79NRrvTcwzn5onBZ))
+- `icon16.png` ([Source](icon16.png))
+- `icon48.png` ([Source](icon48.png))
+- `icon128.png` ([Source](icon128.png))
 
 ---
 
@@ -130,7 +130,3 @@ Provides a user-friendly interface for quick searches. Example:
 This extension is licensed under the MIT License. Feel free to modify and distribute as needed.
 
 ---
-
-## Screenshots
-_Add screenshots of your extension in use (e.g., the popup interface or the omnibox search)._
-
