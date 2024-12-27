@@ -18,7 +18,7 @@ The **Custom Search Toggle** Chrome Extension allows you to seamlessly toggle be
 
 ## Files Included
 ### Manifest File
-**`manifest.json`** ([Source](30)):
+**`manifest.json`** ([Source](manifest.json)):
 Configures the extension and its permissions. Example:
 ```json
 {
